@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Modules\BankAccounts\Aggregates\" />
+    <Folder Include="Modules\BankAccounts\Entities\" />
+    <Folder Include="Modules\BankAccounts\ValuesObjects\" />
+    <Folder Include="Modules\Budgets\Aggregates\" />
+    <Folder Include="Modules\Budgets\Entities\" />
+    <Folder Include="Modules\Budgets\ValuesObjects\" />
+  </ItemGroup>
+
+</Project>
